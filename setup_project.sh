@@ -31,8 +31,8 @@ if [ "$choice" = "yes" ]; then
     read -p "Enter new failure threshold: " failure
 
     # Update config.json safely
-    sed -i "s/\"warning\": [0-9]*/\"warning\": $warning/" "$project/Helpers/config.json/"
-    sed -i "s/\"failure\": [0-9]*/\"failure\": $failure/" "$project/Helpers/config.json/"
+    sed -i "s/\"warning\": [0-9]*/\"warning\": $warning/" $project/Helpers/config.json
+    sed -i "s/\"failure\": [0-9]*/\"failure\": $failure/" $project/Helpers/config.json
 
 else
     echo "Keeping default threshold values"
