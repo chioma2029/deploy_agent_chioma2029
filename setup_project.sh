@@ -35,11 +35,12 @@ if [ "$choice" = "yes" ]; then
         if [ -f "$config_file" ]; then
 		sed -i "s/\"warning\": [0-9]*/\"warning\": $warning/" "$config_file"
 		sed -i "s/\"failure\": [0-9]*/\"failure\": $failure/" "$config_file"
-        
-
+        else
+                echo "Config file not found, skipping update"
+        fi
 else
-    echo "Config file not found, skipping update"
-fi
+        echo "Keeping default threshold values"
+fi       
 
 # Check if Python3 is installed
 
