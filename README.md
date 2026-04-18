@@ -8,7 +8,7 @@
 
 
 ## Project structure it creates
-
+---
 attendance_tracker_{name}/
 ├── attendance_checker.py
 ├── Helpers/
@@ -16,3 +16,4 @@ attendance_tracker_{name}/
 │   └── config.json
 └── reports/
     └── reports.log
+---
