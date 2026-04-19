@@ -12,10 +12,10 @@ mkdir -p "$project/Helpers"
 mkdir -p "$project/reports"
 
 # Moving existing source files into correct structure
-[ -f "attendance_checker.py" ] && cp attendance_checker.py "$project/"
-[ -f "assets.csv" ] && cp assets.csv "$project/Helpers/"
-[ -f "config.json" ] && cp config.json "$project/Helpers/"
-[ -f "reports.log" ] && cp reports.log "$project/reports/"
+[ -f "attendance_checker.py" ] && mv attendance_checker.py "$project/"
+[ -f "assets.csv" ] && mv assets.csv "$project/Helpers/"
+[ -f "config.json" ] && mv config.json "$project/Helpers/"
+[ -f "reports.log" ] && mv reports.log "$project/reports/"
 
 #Archiving and cleaning Interrupted project
 trap 'echo "Interrupted! Archiving project..."; tar -czf "${project}_archive.tar.gz" "${project}";
