@@ -1,4 +1,4 @@
-# Attendance Tracker Project Factory
+# Student Attendance Tracker Project
 
 ##  Overview
 
