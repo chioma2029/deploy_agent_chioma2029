@@ -60,7 +60,7 @@ attendance_tracker_<project_name>/
 
 ---
 
-## ⚙️ How the Script Works
+##  How the Script Works
 
 ### 1. User Input
 
