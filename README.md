@@ -14,15 +14,9 @@ The script acts as a **Project Factory**, meaning it:
 
 ---
 
-##  Objectives
+##  Demonstrative vidoe link below
+https://1drv.ms/v/c/f2c48ed86e77fc2a/IQBGz3viuvOtTaHLCvP-fw-UAQo9mWvu3bW0hBtYIX1zKa4?e=h6pgGY
 
-The goal of this project is to demonstrate:
-
-* Shell scripting automation
-* File and directory management
-* Configuration editing using `sed`
-* Process and signal handling using `trap`
-* Basic environment validation
 
 ---
 
